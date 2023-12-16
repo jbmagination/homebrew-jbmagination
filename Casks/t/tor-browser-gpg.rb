@@ -13,6 +13,7 @@ cask "tor-browser-gpg" do
   end
 
   auto_updates true
+  conflicts_with cask: "tor-browser"
   conflicts_with cask: "homebrew/cask-versions/tor-browser-alpha"
   depends_on macos: ">= :sierra"
 
