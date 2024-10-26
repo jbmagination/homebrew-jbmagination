@@ -1,7 +1,7 @@
 cask "vesktop" do
   version "1.5.3"
   sha256 "71e39434748e684a826f390ceb846d52ed1886bab8b5385c5d94c377e3ac1172"
-  url "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}.dmg"
+  url "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}-universal.dmg"
   name "Vesktop"
   desc "Discord web wrapper that comes with Vencord pre-installed"
   homepage "https://github.com/Vencord/Vesktop"
